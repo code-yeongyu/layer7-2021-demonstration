@@ -335,7 +335,7 @@ const Contact = props => {
     React.createElement("span", { className: "mail" }, "layer7",
 
     React.createElement("i", { className: "fas fa-at at" }), "sunrint.hs.kr"), 
-    React.createElement("p", { className: "subtitle" }, "사이트 준비 중입니다."),
+    React.createElement("p", { className: "subtitle" }, "지원 사이트는 현재 준비 중입니다."),
     //React.createElement("a", { href: "http://sunrin.site/layer7", target: "_blank", rel: "noopener noreferrer" }, "지원하기")
     ),
 
@@ -379,17 +379,17 @@ const SocialLinks = props => {
   return (
     React.createElement("div", { className: "social" },
     React.createElement("a", {
-      href: "https://twitter.com/",
+      href: "http://layer7.kr",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "" },
 
     ' ',
-    React.createElement("i", { className: "fab fa-twitter" })),
+    React.createElement("i", { className: "fas fa-blog" })),
 
     React.createElement("a", {
       id: "profile-link",
-      href: "https://github.com/",
+      href: "https://github.com/Choih0401",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "" },
@@ -398,13 +398,13 @@ const SocialLinks = props => {
     React.createElement("i", { className: "fab fa-github" })),
 
     React.createElement("a", {
-      href: "https://codepen.io/",
+      href: "http://sunrinwiki.layer7.kr",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "" },
 
     ' ',
-    React.createElement("i", { className: "fab fa-codepen" }))));
+    React.createElement("i", { className: "fab fa-wikipedia-w" }))));
 
 
 
