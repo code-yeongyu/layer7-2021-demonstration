@@ -195,7 +195,7 @@ const Project = props => {
 
     props.children,
     React.createElement("div", { className: "buttons" },
-    React.createElement("a", { href: repo, target: "_blank", rel: "noopener noreferrer" }, "View source ",
+    React.createElement("a", { href: repo, target: "_blank", rel: "noopener noreferrer" }, "Show post ",
     React.createElement("i", { className: "fas fa-external-link-alt" }))))));
 
 
@@ -226,9 +226,11 @@ const Projects = props => {
     React.createElement("div", { className: "projects-wrapper" },
     React.createElement(Project, {
       title: "킹왕짱 랜섬웨어",
-      img: 'https://github.com/code-yeongyu/layer7_web_gallery/blob/master/assets/kgw.png?raw=true',
+      img: './kgw.png',
       tech: "python",
-      link: "https://adkim.tistory.com/65" },
+      link: "https://adkim.tistory.com/65",
+      repo: "https://adkim.tistory.com/65"
+     },
 
     React.createElement("small", null, "파이썬을 사용한 랜섬웨어 만둘기!"),
 
@@ -239,221 +241,69 @@ const Projects = props => {
 
 
     React.createElement(Project, {
-      title: "Stock Price Checker.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/StockPriceChecker.jpg',
-      tech: "js node css",
-      link: "https://yagoestevez-stock-price-checker.glitch.me/",
-      repo: "https://github.com/yagoestevez/fcc-stock-price-checker" },
+      title: "복합기 해킹",
+      img: './kjt.png',
+      tech: "c python",
+      link: "https://sunrinjuntae.tistory.com/163",
+      repo: "https://sunrinjuntae.tistory.com/163" },
 
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery + Axios, CSS + Bootstrap and Pug."),
-
-
-    React.createElement("p", null, "Another full-stack website to check the current value of any requested stock in the market.")),
+    React.createElement("small", null, "Layer7 19기 부장님의 \"리얼 해킹\""),
 
 
-
-
-    React.createElement(Project, {
-      title: "Personal Library.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/PersonalLibrary.jpg',
-      tech: "js node css",
-      link: "https://yagoestevez-personal-library.glitch.me/",
-      repo: "https://github.com/yagoestevez/fcc-personal-library" },
-
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap and Pug."),
-    React.createElement("p", null, "A full-stack website to store book titles and comments to each book into a remote database.")),
+    React.createElement("p", null, "실제 복합기를 해킹, 원리를 기술적으로 설명해봅니다 :D "),
+    React.createElement("p", null, "(패스워드 : HelloLayer7)")),
 
 
 
 
     React.createElement(Project, {
-      title: "Issue Tracker.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/IssueTracker.jpg',
-      tech: "js node css",
-      link: "https://yagoestevez-issue-tracker.glitch.me/",
-      repo: "https://github.com/yagoestevez/fcc-issue-tracker" },
+      title: "테트리스 핵",
+      img: './lsh.png',
+      tech: "c python",
+      link: "https://cg10036.tistory.com/129",
+      repo: "https://cg10036.tistory.com/129" },
 
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap and Pug."),
-    React.createElement("p", null, "Yet another full-stack app to save and manage technical issues to be fixed.")),
-
-    React.createElement(Project, {
-      title: "Metric-Imperial Converter.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg',
-      tech: "js node css",
-      link: "https://yagoestevez-metric-imperial-converter.glitch.me/",
-      repo: "https://github.com/yagoestevez/fcc-metric-imperial-converter/" },
-
-    React.createElement("small", null, "Built using Node, Express, JS + jQuery, CSS + Bootstrap and Pug."),
-    React.createElement("p", null, "Another full-stack for converting values from the Internation System of Units (Metric) into the imperial units.")),
+    React.createElement("small", null, "\"테트리스 져봐\""),
+    React.createElement("p", null, "\"그게 뭔데\""),
+    React.createElement("p", null, "\"그거 어떻게 하는건데\"")),
 
 
 
 
     React.createElement(Project, {
-      title: "URL Shortener Microservice.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Cortala.jpg',
-      tech: "js node css",
-      link: "https://cortala.glitch.me/example",
-      repo: "https://github.com/yagoestevez/cortala" },
+      title: "메시지 스니핑",
+      img: './kms.png',
+      tech: "c python",
+      link: "https://www.youtube.com/watch?v=NCh2DC16bLM&feature=youtu.be",
+      repo: "https://www.youtube.com/watch?v=NCh2DC16bLM&feature=youtu.be" },
 
-    React.createElement("small", null, "Built using Node, Express, CSS + Bootstrap and Pug."),
-    React.createElement("p", null, "A microservice which takes a raw URL and makes it a short link to make it easy to sent it through the Internet.")),
+    React.createElement("small", null, "만약 좋아하는 친구의 문자를 읽을 수 있다면?"),
+    React.createElement("p", null, "다른 사람 스마트폰의 문자를 읽을 수 있는 악성코드를 만들고 보여줍니다.")),
+
+    React.createElement(Project, {
+      title: "비밀번호 해킹",
+      img: 'https://github.com/code-yeongyu/layer7_web_gallery/blob/master/assets/kmg.png?raw=true',
+      tech: "c python",
+      link: "https://mg-princess.tistory.com/entry/%EC%8B%9C%EC%97%B0%ED%9A%8C-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%ED%95%B4%ED%82%B9",
+      repo: "https://mg-princess.tistory.com/entry/%EC%8B%9C%EC%97%B0%ED%9A%8C-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%ED%95%B4%ED%82%B9" },
+
+    React.createElement("small", null, "눈을 떠보니 스팀 계좌에 잔액이 2원?"),
+    React.createElement("p", null, "어떤 놈인지는 모르겠지만 레이어식 복수로 혼내주자!")),
 
 
 
 
     React.createElement(Project, {
-      title: "Exercise Tracker.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/ExerciseTracker.jpg',
-      tech: "js vue node css",
-      link: "https://yagoestevez-exercise-tracker.glitch.me",
-      repo: "https://github.com/yagoestevez/exercise-tracker" },
+      title: "끄투 핵",
+      img: 'https://github.com/code-yeongyu/layer7_web_gallery/blob/master/assets/kyg.png?raw=true',
+      tech: "python",
+      link: "https://mengmota.blogspot.com/2020/04/blog-post.html",
+      repo: "https://mengmota.blogspot.com/2020/04/blog-post.html" },
 
-    React.createElement("small", null, "Built using Node, Express, VueJS + Vue Router and CSS + Bootstrap."),
-    React.createElement("p", null, "A service which lets the users save their daily exercise (or anything) into a log for them to check it later.")),
+    React.createElement("small", null, "아니 \"가장사랑스러운너에게축복을\" 이런 단어는 어디서 찾는거야"),
+    React.createElement("p", null, "거기 너 나랑 밥 내기 끄투 대결하자!")),
 
-
-
-
-    React.createElement(Project, {
-      title: "Bar Chart.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/BarChart.jpg',
-      tech: "js d3 css",
-      link: "https://codepen.io/yagoestevez/full/wxjmrB/",
-      repo: "https://github.com/yagoestevez/fcc-barchart" },
-
-    React.createElement("small", null, "Built using CSS, JS and D3.js."),
-    React.createElement("p", null, "A bar chart representing the evolution of the US GDP.")),
-
-    React.createElement(Project, {
-      title: "Treemap Diagram.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/TreemapDiagram.jpg',
-      tech: "js d3 css",
-      link: "https://codepen.io/yagoestevez/full/bjZygz/",
-      repo: "https://github.com/yagoestevez/fcc-treemap-diagram" },
-
-    React.createElement("small", null, "Built using CSS, JS and D3.js."),
-    React.createElement("p", null, "A treemap diagram representing groups of pledges and sales from a particular category.")),
-
-
-
-    React.createElement(Project, {
-      title: "Choropleth Map.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/ChoroplethMap.jpg',
-      tech: "js d3 css",
-      link: "https://codepen.io/yagoestevez/full/NBeaWK/",
-      repo: "https://github.com/yagoestevez/fcc-choropleth-map" },
-
-    React.createElement("small", null, "Built using CSS, JS and D3.js."),
-    React.createElement("p", null, "A choropleth map representing the educational attainment by county in the U.S.")),
-
-    React.createElement(Project, {
-      title: "Random Quoting Machine.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/QuotingMachine.jpg',
-      tech: "js vue css",
-      link: "https://codepen.io/yagoestevez/full/bxgEyd/",
-      repo: "https://github.com/yagoestevez/random-quoting-machine" },
-
-    React.createElement("small", null, "Built using VueJS, Axios and CSS + Bootstrap."),
-    React.createElement("p", null, "A random quoting app which retrieves pictures and quotes from two different APIs.")),
-
-    React.createElement(Project, {
-      title: "Calculator.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Calculator.jpg',
-      tech: "js react css",
-      link: "https://codepen.io/yagoestevez/full/ERVONM/",
-      repo: "https://github.com/yagoestevez/the-calcoolator" },
-
-    React.createElement("small", null, "Built using React and CSS."),
-    React.createElement("p", null, "A project on which I built a virtual calculator with its usual features.")),
-
-    React.createElement(Project, {
-      title: "Pomodoro Timer.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/TomateTimer.jpg',
-      tech: "js react css",
-      link: "https://codepen.io/yagoestevez/full/dqJGVa",
-      repo: "https://github.com/yagoestevez/tomate-time" },
-
-    React.createElement("small", null, "Built using React, CSS and lots of SVG."),
-    React.createElement("p", null, "A cute and animated Pomodoro clock to help the users improve their productivity.")),
-
-    React.createElement(Project, {
-      title: "TicTacToe Game.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/TicTacToe.jpg',
-      tech: "js react css",
-      link: "https://codepen.io/yagoestevez/full/KRevzB/",
-      repo: "https://github.com/yagoestevez/TicTacToe" },
-
-    React.createElement("small", null, "Built using React, CSS and SVG."),
-    React.createElement("p", null, "A TicTacToe game with a basic AI algorithm made for the legacy front-end projects on FreeCodeCamp.")),
-
-
-
-
-    React.createElement(Project, {
-      title: "Twitch Clone.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Twitch.jpg',
-      tech: "js vue sass",
-      link: "https://codepen.io/yagoestevez/full/xjwVPq/" },
-
-
-    React.createElement("small", null, "Built using VueJS, Axios and Scss."),
-    React.createElement("p", null, "Simple Twitch clone using the new Twitch Helix API and made for the legacy front-end projects on FreeCodeCamp.")),
-
-
-
-
-    React.createElement(Project, {
-      title: "Weather App.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/WeatherApp.jpg',
-      tech: "js vue css",
-      link: "https://codepen.io/yagoestevez/full/zWbGmZ/" },
-
-
-    React.createElement("small", null, "Built using VueJS, Axios and CSS."),
-    React.createElement("p", null, "App that present the users with the current local weather for their location.")),
-
-    React.createElement(Project, {
-      title: "Tribute.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Tribute.jpg',
-      tech: "js sass",
-      link: "https://codepen.io/yagoestevez/full/aaaOxL/",
-      repo: "https://github.com/yagoestevez/tribute-to-aaron-swartz" },
-
-    React.createElement("small", null, "Built using vanilla Javascript and Scss."),
-    React.createElement("p", null, "Tribute page to Aaron Swartz, a static website built with SCSS and plain Javascript.")),
-
-
-
-    React.createElement(Project, {
-      title: "Survey Form.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/SurveyForm.jpg',
-      tech: "js sass",
-      link: "https://codepen.io/yagoestevez/full/bjVgjX/",
-      repo: "https://github.com/yagoestevez/membership-form" },
-
-    React.createElement("small", null, "Built using vanilla Javascript and Scss."),
-    React.createElement("p", null, "An animated survey form.")),
-
-    React.createElement(Project, {
-      title: "Landing Page Example.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/LandingPage.jpg',
-      tech: "js sass",
-      link: "https://codepen.io/yagoestevez/full/pOBLeK/",
-      repo: "https://github.com/yagoestevez/tomate-timer-landing-page" },
-
-    React.createElement("small", null, "Built using vanilla Javascript and Scss."),
-    React.createElement("p", null, "A landing page for the Pomodoro Timer I made (shown previously in this section).")),
-
-    React.createElement(Project, {
-      title: "Technical Documentation Page.",
-      img: 'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Documentify.jpg',
-      tech: "js react css",
-      link: "https://codepen.io/yagoestevez/full/QxOLKX/",
-      repo: "https://github.com/yagoestevez/documentify" },
-
-    React.createElement("small", null, "Built using React and CSS."),
-    React.createElement("p", null, "A technical documentation page made for a little React library I published on NPM."))))));
+))));
 
 
 
@@ -484,7 +334,8 @@ const Contact = props => {
     '',
     React.createElement("span", { className: "mail" }, "layer7",
 
-    React.createElement("i", { className: "fas fa-at at" }), "sunrint.hs.kr"), ":"),
+    React.createElement("i", { className: "fas fa-at at" }), "sunrint.hs.kr"), 
+    React.createElement("p", { className: "subtitle" }, "사이트 준비 중입니다."),
     //React.createElement("a", { href: "http://sunrin.site/layer7", target: "_blank", rel: "noopener noreferrer" }, "지원하기")
     ),
 
@@ -492,7 +343,7 @@ const Contact = props => {
 
 
 
-    React.createElement(SocialLinks, null)))));
+    React.createElement(SocialLinks, null))))));
 
 
 
