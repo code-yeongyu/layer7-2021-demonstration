@@ -274,8 +274,8 @@ const Projects = props => {
       title: "메시지 스니핑",
       img: './kms.png',
       tech: "c python",
-      link: "https://www.youtube.com/watch?v=NCh2DC16bLM&feature=youtu.be",
-      repo: "https://www.youtube.com/watch?v=NCh2DC16bLM&feature=youtu.be" },
+      link: "https://gnemek20.tistory.com/6",
+      repo: "https://gnemek20.tistory.com/6" },
 
     React.createElement("small", null, "만약 좋아하는 친구의 문자를 읽을 수 있다면?"),
     React.createElement("p", null, "다른 사람 스마트폰의 문자를 읽을 수 있는 악성코드를 만들고 보여줍니다.")),
