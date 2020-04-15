@@ -385,7 +385,7 @@ const SocialLinks = props => {
       title: "" },
 
     ' ',
-    React.createElement("i", { className: "fas fa-blog" })),
+    React.createElement("i", { className: "fab fa-blogger" })),
 
     React.createElement("a", {
       id: "profile-link",
