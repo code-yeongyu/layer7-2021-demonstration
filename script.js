@@ -480,7 +480,7 @@ const Contact = props => {
 
 
     React.createElement("p", { className: "separator" }),
-    React.createElement("p", { className: "subtitle" }, "Please, use the form below or send an email to ",
+    React.createElement("p", { className: "subtitle" }, "Please, send an email to ",
     '',
     React.createElement("span", { className: "mail" }, "layer7",
 
