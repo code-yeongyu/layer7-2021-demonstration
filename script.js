@@ -390,11 +390,11 @@ const SocialLinks = props => {
       title: "" },
 
     ' ',
-    React.createElement("i", { className: "fab fa-blogger" })),
+    React.createElement("i", { className: "fas fa-globe" })),
 
     React.createElement("a", {
       id: "profile-link",
-      href: "https://github.com/Choih0401",
+      href: "https://github.com/code-yeongyu",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "" },
@@ -403,13 +403,13 @@ const SocialLinks = props => {
     React.createElement("i", { className: "fab fa-github" })),
 
     React.createElement("a", {
-      href: "http://sunrinwiki.layer7.kr",
+      href: "https://www.facebook.com/letsgolayer7",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "" },
 
     ' ',
-    React.createElement("i", { className: "fab fa-wikipedia-w" }))));
+    React.createElement("i", { className: "fab fa-facebook-square" }))));
 
 
 
