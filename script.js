@@ -296,7 +296,7 @@ const Projects = props => {
     React.createElement(Project, {
       title: "끄투 핵",
       img: 'https://github.com/code-yeongyu/layer7_web_gallery/blob/master/assets/kyg.png?raw=true',
-      tech: "python",
+      tech: "python js",
       link: "https://mengmota.blogspot.com/2020/04/blog-post.html",
       repo: "https://mengmota.blogspot.com/2020/04/blog-post.html" },
 
