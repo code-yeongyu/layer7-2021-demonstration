@@ -224,6 +224,22 @@ const Projects = props => {
 
 
     React.createElement("div", { className: "projects-wrapper" },
+
+    React.createElement(Project, {
+      title: "복합기 해킹",
+      img: './kjt.png',
+      tech: "c python",
+      link: "https://sunrinjuntae.tistory.com/163",
+      repo: "https://sunrinjuntae.tistory.com/163" },
+
+    React.createElement("small", null, "Layer7 19기 부장님의 \"리얼 해킹\""),
+
+
+    React.createElement("p", null, "실제 복합기를 해킹, 원리를 기술적으로 설명해봅니다 :D "),
+    React.createElement("p", null, "(패스워드 : HelloLayer7)")),
+
+
+
     React.createElement(Project, {
       title: "킹왕짱 랜섬웨어",
       img: './kgw.png',
@@ -240,18 +256,7 @@ const Projects = props => {
 
 
 
-    React.createElement(Project, {
-      title: "복합기 해킹",
-      img: './kjt.png',
-      tech: "c python",
-      link: "https://sunrinjuntae.tistory.com/163",
-      repo: "https://sunrinjuntae.tistory.com/163" },
-
-    React.createElement("small", null, "Layer7 19기 부장님의 \"리얼 해킹\""),
-
-
-    React.createElement("p", null, "실제 복합기를 해킹, 원리를 기술적으로 설명해봅니다 :D "),
-    React.createElement("p", null, "(패스워드 : HelloLayer7)")),
+    
 
 
 
