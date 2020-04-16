@@ -332,7 +332,7 @@ const Contact = props => {
     React.createElement("p", { className: "separator" }),
     React.createElement("p", { className: "subtitle" }, "Please, send an email to ",
     '',
-    React.createElement("span", { className: "mail" }, "danielch0401",
+    React.createElement("span", { className: "mail" }, "kjt8264",
 
     React.createElement("i", { className: "fas fa-at at" }), "naver.com"), 
     React.createElement("p", { className: "subtitle" }, "지원 사이트는 현재 준비 중입니다."),
