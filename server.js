@@ -4,26 +4,24 @@ const path = require('path');
 const http = require('http').Server(app);
 const bodyParser = require("body-parser");
 
+var morgan = require('morgan');
+
+app.use(morgan('combined'))
+
 app.use(express.static(__dirname + '/'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended : true}));
-app.set('view engine', 'pug'); 
-app.set('views', path.join(__dirname, '/routers/views'));
-app.engine('html',require('pug').renderFile);
 
-
-app.get('/',
-  function (req, res) {
+app.use('/',
+  function (req, res, next) {
     res.sendFile(__dirname +  '/index.html');
   }
 );
 
-
 app.all('*',
-  function (req, res) {
+  function (req, res, next) {
     res.status(404).send('<h1> 404 Error </h1>');
   }
 );
+
 
 http.listen(80,function(){
   console.log('server on!');
