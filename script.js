@@ -308,6 +308,16 @@ const Projects = props => {
     React.createElement("small", null, "아니 \"가장사랑스러운너에게축복을\" 이런 단어는 어디서 찾는거야"),
     React.createElement("p", null, "거기 너 나랑 밥 내기 끄투 대결하자!")),
 
+    React.createElement(Project, {
+      title: "Assaultcube 멀티플레이 핵",
+      img: './new.png',
+      tech: "c",
+      link: "https://cg10036.tistory.com/130",
+      repo: "https://cg10036.tistory.com/130" },
+
+    React.createElement("small", null, "어썰트큐브 핵 만들기"),
+    React.createElement("p", null, "어썰트큐브로 게임 핵에 대해서 알아보아요!")),
+
 ))));
 
 
