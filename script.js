@@ -17,17 +17,17 @@ const Menu = props => {
 
 
     React.createElement("li", null,
-    React.createElement("a", { href: "#about", onClick: props.toggleMenu }, "ABOUT")),
+    React.createElement("a", { href: "#about", onClick: props.toggleMenu }, "Layer7 소개")),
 
 
 
     React.createElement("li", null,
-    React.createElement("a", { href: "#projects", onClick: props.toggleMenu }, "PORTFOLIO")),
+    React.createElement("a", { href: "#projects", onClick: props.toggleMenu }, "Our Works")),
 
 
 
     React.createElement("li", null,
-    React.createElement("a", { href: "#contact", onClick: props.toggleMenu }, "CONTACT"))),
+    React.createElement("a", { href: "#contact", onClick: props.toggleMenu }, "지원하기"))),
 
 
 
