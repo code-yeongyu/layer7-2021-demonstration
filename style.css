@@ -1,5 +1,9 @@
 @font-face{ font-family:ng; src:url(NanumGothic.eot); src:local(※), url(NanumGothic.woff) format(‘woff’) }
 
+* {
+  cursor: url(maplcursor.cur), auto !important;
+}
+
 *,
 *::before,
 *::after,
