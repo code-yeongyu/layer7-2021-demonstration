@@ -350,8 +350,9 @@ const Contact = props => {
     React.createElement("span", { className: "mail" }, "kjt8264",
 
     React.createElement("i", { className: "fas fa-at at" }), "naver.com"), 
-    React.createElement("p", { className: "subtitle" }, "지원 사이트는 현재 준비 중입니다."),
-    //React.createElement("a", { href: "http://sunrin.site/layer7", target: "_blank", rel: "noopener noreferrer" }, "지원하기")
+    React.createElement("p", { className: "subtitle" }, ""),
+    //React.createElement("p", { className: "subtitle" }, "지원 사이트는 현재 준비 중입니다."),
+    React.createElement("a", { href: "http://funnyga.me:14105", target: "_blank", rel: "noopener noreferrer" }, "지원하기")
     ),
 
 
