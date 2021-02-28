@@ -490,24 +490,28 @@ const Contact = (props) => {
                         React.createElement(
                             "span",
                             { className: "mail" },
-                            "kjt8264",
+                            "kkhhss0290",
 
                             React.createElement("i", {
                                 className: "fas fa-at at",
                             }),
-                            "naver.com"
+                            "gmail.com"
                         ),
                         React.createElement("p", { className: "subtitle" }, ""),
-                        //React.createElement("p", { className: "subtitle" }, "지원 사이트는 현재 준비 중입니다."),
                         React.createElement(
-                            "a",
-                            {
-                                href: "http://funnyga.me:14105",
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                            },
-                            "지원하기"
+                            "p",
+                            { className: "subtitle" },
+                            "지원 사이트는 현재 준비 중입니다."
                         )
+                        // React.createElement(
+                        //     "a",
+                        //     {
+                        //         href: "http://funnyga.me:14105",
+                        //         target: "_blank",
+                        //         rel: "noopener noreferrer",
+                        //     },
+                        //     "지원하기"
+                        // )
                     ),
 
                     React.createElement(SocialLinks, null)
