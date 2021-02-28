@@ -280,14 +280,12 @@ const Project = (props) => {
                 React.createElement(
                     "p",
                     { className: "icons" },
-                    props.tech
-                        .split(" ")
-                        .map((t) =>
-                            React.createElement("i", {
-                                className: tech[t],
-                                key: t,
-                            })
-                        )
+                    props.tech.split(" ").map((t) =>
+                        React.createElement("i", {
+                            className: tech[t],
+                            key: t,
+                        })
+                    )
                 ),
 
                 props.title,
@@ -340,61 +338,60 @@ const Projects = (props) => {
                 React.createElement(
                     Project,
                     {
-                        title: "복합기 해킹",
-                        img: "./kjt.png",
-                        tech: "c python",
-                        link: "https://sunrinjuntae.tistory.com/163",
-                        repo: "https://sunrinjuntae.tistory.com/163",
+                        title: "플레이스테이션4 해킹 가이드 제작",
+                        img: "./1.png",
+                        tech: "",
+                        link: "https://ggyul-e.tistory.com/20",
+                        repo: "https://ggyul-e.tistory.com/20",
                     },
 
                     React.createElement(
                         "small",
                         null,
-                        'Layer7 19기 부장님의 "리얼 해킹"'
+                        '레이어7 20기 부장님의 "진짜 해킹"'
                     ),
 
                     React.createElement(
                         "p",
                         null,
-                        "실제 복합기를 해킹, 원리를 기술적으로 설명해봅니다 :D "
-                    ),
-                    React.createElement("p", null, "(패스워드 : HelloLayer7)")
-                ),
-
-                React.createElement(
-                    Project,
-                    {
-                        title: "킹왕짱 랜섬웨어",
-                        img: "./kgw.png",
-                        tech: "python",
-                        link: "https://adkim.tistory.com/65",
-                        repo: "https://adkim.tistory.com/65",
-                    },
-
-                    React.createElement(
-                        "small",
-                        null,
-                        "파이썬을 사용한 랜섬웨어 만둘기!"
-                    ),
-
-                    React.createElement(
-                        "p",
-                        null,
-                        "킹왕짱 랜섬웨어로 사랑을 쟁취해봅시다 ㅎㅎ"
+                        "콘솔 게임기인 플레이스테이션4의 구조와 해킹 방법을 설명합니다!"
                     )
                 ),
 
                 React.createElement(
                     Project,
                     {
-                        title: "테트리스 핵",
-                        img: "./lsh.png",
-                        tech: "c python",
-                        link: "https://cg10036.tistory.com/129",
-                        repo: "https://cg10036.tistory.com/129",
+                        title: "네이트온 해킹",
+                        img: "./2.png",
+                        tech: "",
+                        link: "https://jmsl7.tistory.com/31",
+                        repo: "https://jmsl7.tistory.com/31",
                     },
 
-                    React.createElement("small", null, '"테트리스 져봐"'),
+                    React.createElement(
+                        "small",
+                        null,
+                        "김도연, 너가 감히 우릴 배신해?"
+                    ),
+
+                    React.createElement(
+                        "p",
+                        null,
+                        "그렇게 시작된 레쎄 부원들의 은밀하고 위대한 김도연 고백 프로젝트"
+                    )
+                ),
+
+                React.createElement(
+                    Project,
+                    {
+                        title: "플래시 게임 해킹",
+                        img: "./3.jpg",
+                        tech: "",
+                        link: "https://jmsl7.tistory.com/31",
+                        repo: "https://jmsl7.tistory.com/31",
+                    },
+
+                    React.createElement("small", null, '"김도연한테 져봐"'),
                     React.createElement("p", null, '"그게 뭔데"'),
                     React.createElement("p", null, '"그거 어떻게 하는건데"')
                 ),
@@ -402,90 +399,56 @@ const Projects = (props) => {
                 React.createElement(
                     Project,
                     {
-                        title: "메시지 스니핑",
-                        img: "./kms.png",
-                        tech: "c python",
-                        link: "https://gnemek20.tistory.com/6",
-                        repo: "https://gnemek20.tistory.com/6",
+                        title: "칼리를 이용한 모의 해킹",
+                        img: "./4.jpg",
+                        tech: "",
+                        link: "https://sungmin-04.tistory.com/24",
+                        repo: "https://sungmin-04.tistory.com/24",
                     },
 
                     React.createElement(
                         "small",
                         null,
-                        "만약 좋아하는 친구의 문자를 읽을 수 있다면?"
+                        "아직도 윈도우 xp를 사용하는 사람이 있다??"
                     ),
                     React.createElement(
                         "p",
                         null,
-                        "다른 사람 스마트폰의 문자를 읽을 수 있는 악성코드를 만들고 보여줍니다."
+                        "윈도우 xp를 사용하는 김도연의 pc를 좀비pc로 만들어보자"
                     )
                 ),
 
                 React.createElement(
                     Project,
                     {
-                        title: "비밀번호 해킹",
-                        img:
-                            "https://github.com/code-yeongyu/layer7_web_gallery/blob/master/assets/kmg.png?raw=true",
-                        tech: "c python",
-                        link:
-                            "https://mg-princess.tistory.com/entry/%EC%8B%9C%EC%97%B0%ED%9A%8C-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%ED%95%B4%ED%82%B9",
-                        repo:
-                            "https://mg-princess.tistory.com/entry/%EC%8B%9C%EC%97%B0%ED%9A%8C-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%ED%95%B4%ED%82%B9",
+                        title: "Heap Exploitation",
+                        img: "./5.png",
+                        tech: "",
+                        link: "https://normaldy.tistory.com/63",
+                        repo: "https://normaldy.tistory.com/63",
                     },
 
                     React.createElement(
                         "small",
                         null,
-                        "눈을 떠보니 스팀 계좌에 잔액이 2원?"
-                    ),
-                    React.createElement(
-                        "p",
-                        null,
-                        "어떤 놈인지는 모르겠지만 레이어식 복수로 혼내주자!"
+                        "힙을 exploit해서 도연이의 힙을 걷어차주자!"
                     )
                 ),
 
                 React.createElement(
                     Project,
                     {
-                        title: "끄투 핵",
-                        img:
-                            "https://github.com/code-yeongyu/layer7_web_gallery/blob/master/assets/kyg.png?raw=true",
-                        tech: "python js",
-                        link:
-                            "https://mengmota.blogspot.com/2020/04/blog-post.html",
-                        repo:
-                            "https://mengmota.blogspot.com/2020/04/blog-post.html",
+                        title: "웹 개발 및 취약점 분석",
+                        img: "./6.png",
+                        tech: "",
+                        link: "https://disso1p1.tistory.com/64",
+                        repo: "https://disso1p1.tistory.com/64",
                     },
 
                     React.createElement(
                         "small",
                         null,
-                        '아니 "가장사랑스러운너에게축복을" 이런 단어는 어디서 찾는거야'
-                    ),
-                    React.createElement(
-                        "p",
-                        null,
-                        "거기 너 나랑 밥 내기 끄투 대결하자!"
-                    )
-                ),
-
-                React.createElement(
-                    Project,
-                    {
-                        title: "Assaultcube 멀티플레이 핵",
-                        img: "./new.png",
-                        tech: "c",
-                        link: "https://cg10036.tistory.com/130",
-                        repo: "https://cg10036.tistory.com/130",
-                    },
-
-                    React.createElement("small", null, "어썰트큐브 핵 만들기"),
-                    React.createElement(
-                        "p",
-                        null,
-                        "어썰트큐브로 게임 핵에 대해서 알아보아요!"
+                        "도연이는 사람인가 문어인가"
                     )
                 )
             )
@@ -701,7 +664,6 @@ class App extends React.Component {
                 navbar.classList.add("bg-active")
             else navbar.classList.remove("bg-active")
         }
-
         ;(function navSmoothScrolling() {
             const internalLinks = document.querySelectorAll('a[href^="#"]')
             for (let i in internalLinks) {
