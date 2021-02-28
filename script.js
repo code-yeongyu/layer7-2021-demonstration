@@ -502,6 +502,34 @@ const Contact = (props) => {
                             "p",
                             { className: "subtitle" },
                             "지원 사이트는 현재 준비 중입니다."
+                        ),
+                        React.createElement(
+                            "span",
+                            { className: "subtitle" },
+                            "made by "
+                        ),
+                        React.createElement(
+                            "a",
+                            {
+                                href: "https://github.com/Choih0401",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                            },
+                            "Choih0401"
+                        ),
+                        React.createElement(
+                            "span",
+                            { className: "subtitle" },
+                            ","
+                        ),
+                        React.createElement(
+                            "a",
+                            {
+                                href: "https://github.com/code-yeongyu",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                            },
+                            "YeonGyu Kim"
                         )
                         // React.createElement(
                         //     "a",
@@ -570,7 +598,8 @@ const SocialLinks = (props) => {
             "a",
             {
                 id: "profile-link",
-                href: "https://github.com/code-yeongyu",
+                href:
+                    "https://github.com/code-yeongyu/layer7-2021-demonstration",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 title: "",
