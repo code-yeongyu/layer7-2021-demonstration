@@ -354,7 +354,12 @@ const Projects = (props) => {
                     React.createElement(
                         "p",
                         null,
-                        "콘솔 게임기인 플레이스테이션4의 구조와 해킹 방법을 설명합니다!"
+                        "콘솔 게임기인 플레이스테이션4의"
+                    ),
+                    React.createElement(
+                        "p",
+                        null,
+                        "구조와 해킹 방법을 설명합니다!"
                     )
                 ),
 
@@ -391,7 +396,7 @@ const Projects = (props) => {
                         repo: "https://jmsl7.tistory.com/31",
                     },
 
-                    React.createElement("small", null, '"김도연한테 져봐"'),
+                    React.createElement("p", null, '"김도연한테 져봐"'),
                     React.createElement("p", null, '"그게 뭔데"'),
                     React.createElement("p", null, '"그거 어떻게 하는건데"')
                 ),
@@ -608,7 +613,6 @@ const SocialLinks = (props) => {
             " ",
             React.createElement("i", { className: "fab fa-github" })
         ),
-
         React.createElement(
             "a",
             {
