@@ -503,11 +503,21 @@ const Contact = (props) => {
                             "gmail.com"
                         ),
                         React.createElement("p", { className: "subtitle" }, ""),
+                        // React.createElement(
+                        //     "p",
+                        //     { className: "subtitle" },
+                        //     "지원 사이트는 현재 준비 중입니다."
+                        // ),
                         React.createElement(
-                            "p",
-                            { className: "subtitle" },
-                            "지원 사이트는 현재 준비 중입니다."
+                            "a",
+                            {
+                                href: "https://club.sunrinsecurity.com",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                            },
+                            "지원하기"
                         ),
+                        React.createElement("br"),
                         React.createElement(
                             "span",
                             { className: "subtitle" },
@@ -536,15 +546,6 @@ const Contact = (props) => {
                             },
                             "YeonGyu Kim"
                         )
-                        // React.createElement(
-                        //     "a",
-                        //     {
-                        //         href: "http://funnyga.me:14105",
-                        //         target: "_blank",
-                        //         rel: "noopener noreferrer",
-                        //     },
-                        //     "지원하기"
-                        // )
                     ),
 
                     React.createElement(SocialLinks, null)
