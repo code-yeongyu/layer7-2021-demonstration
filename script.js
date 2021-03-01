@@ -369,8 +369,8 @@ const Projects = (props) => {
                         title: "네이트온 해킹",
                         img: "./2.png",
                         tech: "",
-                        link: "https://jmsl7.tistory.com/32",
-                        repo: "https://jmsl7.tistory.com/32",
+                        link: "https://jmsl7.tistory.com/31",
+                        repo: "https://jmsl7.tistory.com/31",
                     },
 
                     React.createElement(
@@ -392,8 +392,8 @@ const Projects = (props) => {
                         title: "플래시 게임 해킹",
                         img: "./3.jpg",
                         tech: "",
-                        link: "https://jmsl7.tistory.com/31",
-                        repo: "https://jmsl7.tistory.com/31",
+                        link: "https://jmsl7.tistory.com/32",
+                        repo: "https://jmsl7.tistory.com/32",
                     },
 
                     React.createElement("p", null, '"김도연한테 져봐"'),
